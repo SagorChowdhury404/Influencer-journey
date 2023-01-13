@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+}
+
+/* nav style //// */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 120px;
+}
+
+.webTittle {
+    font-size: 24px;
+    color: tomato;
+}
+
+.navLink a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-right: 30px;
+}
+
+.navLink img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+/* ////////////  ----  header banner ------- //////////////////////// */
+
+.sectionbanner {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.bannerInfo {
+    width: 50%;
+    padding: 100px;
+}
+
+.bannerTittle {
+    font-size: 52px;
+}
+
+.bannerDescription {
+    margin: 20px 0px;
+}
+
+.PreebookBtn {
+
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 15px;
+    background: #E02C6D;
+    display: flex;
+    gap: 15px;
+}
+
+/*  ------------------ patnerContainer ---------- */
+
+.patnerContainer {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E02C6D;
+    margin-left: 175px;
+    padding: 20px 30px;
+    border-radius: 15px;
+
+}
+
+/* ------------------------------------------------------- */
+.Popular-Collection {}
+
+.Popular-Collection-tittle {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(29, 8, 13);
+    margin: 70px 0px 30px 0px;
+    text-align: center;
+}
+
+.Popular-Collection-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+
+}
+
+.Popular-Collection-card {
+    width: 100%;
+    background: #aa2727;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.Popular-Collection-card img {
+    width: 80%;
+
+}
